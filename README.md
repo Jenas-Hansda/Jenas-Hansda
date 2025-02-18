@@ -24,14 +24,14 @@ I am a passionate **Computer Science student** currently learning and growing in
 - **Machine Learning (ML)**
 - **Data Science**
 
- ### **About Me**
+ ### About Me
 - Dedicated to continuously improving my skills.
 - Excited to explore new challenges in coding and innovation.
 - Currently working on personal projects to enhance my practical experience in tech.
 
 
 
-## Skills
+### Skills
 - **Programming Languages**: Java, Python, C, C++, HTML, CSS, JavaScript
 - **Tools & Technologies**: Git, Linux, SQL, Visual Studio Code
 - **Areas of Interest**: Software Development, Data Science, AI/ML
@@ -43,7 +43,7 @@ Some of my recent projects include:
 - **Weather Forecasting App**: Designed an app to display real-time weather information.
 -->
 
-## Stats
+### Stats
 
 
 
