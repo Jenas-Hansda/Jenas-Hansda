@@ -24,7 +24,7 @@ I am a passionate **Computer Science student** currently learning and growing in
 - **Machine Learning (ML)**
 - **Data Science**
 
- About Me
+<h3><b> About Me </b></h3>
 - Dedicated to continuously improving my skills.
 - Excited to explore new challenges in coding and innovation.
 - Currently working on personal projects to enhance my practical experience in tech.
@@ -51,6 +51,22 @@ Some of my recent projects include:
   <img src="https://github-readme-stats.vercel.app/api?username=jenas-hansda&show_icons=true&locale=en" alt="GitHub Stats" width="400" height="200" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=jenas-hansda&show_icons=true&locale=en&layout=compact" alt="Top Languages" width="400" height="200" />
 </div>
+
+
+<!--
+Feel free to explore my GitHub and connect with me for collaborations or to discuss any project ideas! Let's build something amazing together 🚀
+
+
+## Connect with me:
+- **Call**: [Click to Call](tel:+8521005123)
+- **WhatsApp**: [Click to Chat on WhatsApp](https://wa.me/8521005123)
+- **Telegram**: [Click to Message on Telegram](https://t.me/vishal)
+
+- [LinkedIn](https://www.linkedin.com/in/jenas-hansda/)
+- [GitHub](https://github.com/jenas-hansda)
+- [Portfolio](https://yourportfolio.com)
+
+-->
 
 ---
 
