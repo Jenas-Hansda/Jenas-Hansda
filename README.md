@@ -24,7 +24,7 @@ I am a passionate **Computer Science student** currently learning and growing in
 - **Machine Learning (ML)**
 - **Data Science**
 
- **About Me**
+ ### **About Me**
 - Dedicated to continuously improving my skills.
 - Excited to explore new challenges in coding and innovation.
 - Currently working on personal projects to enhance my practical experience in tech.
