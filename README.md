@@ -43,6 +43,7 @@ Some of my recent projects include:
 - **Weather Forecasting App**: Designed an app to display real-time weather information.
 -->
 
+<!--
 ### Stats
 
 
@@ -51,7 +52,7 @@ Some of my recent projects include:
   <img src="https://github-readme-stats.vercel.app/api?username=jenas-hansda&show_icons=true&locale=en" alt="GitHub Stats" width="400" height="200" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=jenas-hansda&show_icons=true&locale=en&layout=compact" alt="Top Languages" width="400" height="200" />
 </div>
-
+-->
 
 <!--
 Feel free to explore my GitHub and connect with me for collaborations or to discuss any project ideas! Let's build something amazing together 🚀
