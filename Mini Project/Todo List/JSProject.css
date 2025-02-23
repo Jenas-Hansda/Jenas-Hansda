@@ -1,0 +1,73 @@
+/* Reset some default styles */
+body, h1, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8f5e9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Header styles */
+h1 {
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+/* Input field styles */
+input[type="text"] {
+    padding: 10px;
+    width: auto;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Button styles */
+button {
+    padding: 10px 15px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+/* List styles */
+ul {
+    margin-top: 20px;
+    width: auto; /* Set a fixed width for the list */
+}
+
+li {
+    background-color: white; /* White background for list items */
+    padding: 10px;
+    margin-bottom: 5px; /* Space between list items */
+    border-radius: 5px; /* Rounded corners */
+    display: flex; /* Flexbox for aligning delete button */
+    justify-content: space-between; /* Space between task and button */
+}
+
+/* Delete button styles */
+.delete {
+    background-color: #e74c3c; /* Red background for delete button */
+}
+
+.delete:hover {
+    background-color: #c0392b; /* Darker red on hover */
+}
