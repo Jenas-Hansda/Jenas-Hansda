@@ -1,20 +1,24 @@
 {
+    "version": 4,
     "configurations": [
         {
-            "name": "Win32",
+            "name": "Win32", // Or another name if you're using a different platform
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "C:/MinGW/include" // Update this path to where your MinGW headers are located
             ],
-            "defines": [
-                "_DEBUG",
-                "UNICODE",
-                "_UNICODE"
-            ],
-            "compilerPath": "cl.exe",
-            "cStandard": "c17",
-            "cppStandard": "c++17",
-            "intelliSenseMode": "windows-msvc-x64"
+            "defines": [],
+            "compilerPath": "C:/MinGW/bin/g++.exe", // Path to g++
+            "cStandard": "c11",  // Adjust if you're using C
+            "cppStandard": "c++17",  // Adjust if you're using a different C++ standard
+            "intelliSenseMode": "gcc-x86", // For g++ on Windows, you can use gcc-x86
+            "browse": {
+                "path": [
+                    "C:/MinGW/include", // Update with MinGW include path
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
         }
-    ],
-    "version": 4
+    ]
 }

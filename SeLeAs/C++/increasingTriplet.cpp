@@ -1,6 +1,9 @@
-class Solution {
+#include <string>
+#include <vector>
+
+class increasingTriplet {
     public:
-        bool increasingTriplet(vector<int>& nums) {
+        bool IncreasingTriplet(vector<int>& nums) {
             int n = nums.size();
             int k = 3;
             vector<long long> increasing(k, LONG_MAX);
