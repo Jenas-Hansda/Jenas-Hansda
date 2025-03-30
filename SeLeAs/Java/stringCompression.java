@@ -1,4 +1,4 @@
-class Solution {
+class stringCompression {
     public int compress(char[] chars) {
         int n = chars.length;
         int idx = 0;  // Initialize idx to 0

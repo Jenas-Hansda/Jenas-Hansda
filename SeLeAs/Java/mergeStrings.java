@@ -1,5 +1,5 @@
-class Solution {
-    public String mergeAlternately(String word1, String word2) {
+class mergeAlternately {
+    public String MergeAlternately(String word1, String word2) {
         int i = 0, j = 0;
         StringBuilder merged = new StringBuilder();
         int len_w1 = word1.length();

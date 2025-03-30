@@ -1,5 +1,5 @@
-class Solution {
-    public String reverseVowels(String s) {
+class reverseVowels {
+    public String ReverseVowels(String s) {
         // Convert string to character array for easier manipulation
         char[] chars = s.toCharArray();
         

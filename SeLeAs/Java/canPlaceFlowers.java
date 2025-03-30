@@ -1,5 +1,5 @@
-class Solution {
-    public boolean canPlaceFlowers(int[] flowerbed, int n) {
+class canPlaceFlowers {
+    public boolean CanPlaceFlowers(int[] flowerbed, int n) {
         if (n == 0) {
             return true;
         }

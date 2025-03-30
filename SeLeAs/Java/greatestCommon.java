@@ -1,4 +1,4 @@
-class Solution {
+class greatestCommon {
     public String gcdOfStrings(String str1, String str2) {
         // Check if str1 + str2 is equal to str2 + str1
         if (!str1.concat(str2).equals(str2.concat(str1))) {
