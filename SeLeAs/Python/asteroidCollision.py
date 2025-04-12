@@ -9,7 +9,7 @@ class Solution:
                 if last > -ast:
                     stack.append(last)
                     break
-                if last == -ast:
+                elif last == -ast:
                     break
             else:
                 stack.append(ast)
