@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frameset Layout</title>
+</head>
+<body>
+    <!-- Define the frameset layout -->
+    <frameset rows="10%, 80%, 10%" border="1">
+        <!-- Header Section (10% of the height) -->
+        <frame src="header.html" name="header" noresize="noresize" scrolling="no">
+
+        <!-- Main Content Section (80% of the height) with nested frames -->
+        <frameset cols="20%, 60%, 20%" border="1">
+            <!-- Left Content Frame (20% of width) -->
+            <frame src="content.html" name="content" scrolling="yes">
+
+            <!-- Center Body Frame (60% of width) -->
+            <frame src="body.html" name="body" scrolling="yes">
+
+            <!-- Right Remarks Frame (20% of width) -->
+            <frame src="remarks.html" name="remarks" scrolling="yes">
+        </frameset>
+
+        <!-- Footer Section (10% of the height) -->
+        <frame src="footer.html" name="footer" noresize="noresize" scrolling="no">
+    </frameset>
+
+    <!-- If frames are not supported by the browser, show this message -->
+    <noframes>
+        <body>
+            <p>Your browser does not support frames. Please use a modern browser.</p>
+        </body>
+    </noframes>
+</body>
+</html>
