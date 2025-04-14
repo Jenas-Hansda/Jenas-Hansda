@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class equalRow {
     public int equalPairs(int[][] grid) {
         int n = grid.length;
         int pairs = 0;

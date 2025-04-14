@@ -1,5 +1,5 @@
-class Solution {
-    public int longestSubarray(int[] nums) {
+class longestSubarray {
+    public int LongestSubarray(int[] nums) {
         int maxLen = 0;
         int start = 0;
         int zeroCount = 0;

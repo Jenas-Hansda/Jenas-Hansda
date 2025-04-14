@@ -3,7 +3,7 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-class Solution {
+class uniqueOccurances {
     public boolean uniqueOccurrences(int[] arr) {
         // Count the frequency of each element in arr
         Map<Integer, Integer> countMap = new HashMap<>();
