@@ -4,8 +4,8 @@ class ListNode {
     ListNode(int x) { val = x; }
 }
 
-class Solution {
-    public ListNode oddEvenList(ListNode head) {
+class oddEvenList {
+    public ListNode OddEvenList(ListNode head) {
         if (head == null || head.next == null) {
             return head;
         }

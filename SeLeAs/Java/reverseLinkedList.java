@@ -7,7 +7,7 @@ class ListNode {
     }
 }
 
-class ReverseLinkedList {
+class reverseLinkedList {
     public ListNode reverseList(ListNode head) {
         ListNode prev = null;
         ListNode curr = head;
