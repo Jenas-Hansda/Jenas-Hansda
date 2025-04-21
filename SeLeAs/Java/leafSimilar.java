@@ -14,8 +14,8 @@ class TreeNode {
     }
 }
 
-class Solution {
-    public boolean leafSimilar(TreeNode root1, TreeNode root2) {
+class leafSimilar {
+    public boolean LeafSimilar(TreeNode root1, TreeNode root2) {
         List<Integer> leaf1 = new ArrayList<>();
         List<Integer> leaf2 = new ArrayList<>();
         
