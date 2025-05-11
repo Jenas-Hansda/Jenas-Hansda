@@ -1,20 +1,45 @@
+// Mock of GuessGame class
+class GuessGame {
+    private int target;
+
+    public GuessGame(int target) {
+        this.target = target;
+    }
+
+    protected int guess(int num) {
+        if (num == target) return 0;
+        return num < target ? 1 : -1;
+    }
+}
+
+// Your actual solution class
 public class guessNumber extends GuessGame {
-    public int GuessNumber(int n) {
+    public guessNumber(int target) {
+        super(target);
+    }
+
+    public int GuessNumber(int n) { // <-- fixed method name
         int low = 1, high = n;
-        
-        while (low < high) {
-            int mid = low + (high - low) / 2;  // Avoid overflow
-            int guessed = guess(mid);
-            
-            if (guessed == 0) {
+
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+            int res = guess(mid);
+
+            if (res == 0) {
                 return mid;
-            } else if (guessed == 1) {
-                low = mid + 1;
-            } else {
+            } else if (res < 0) {
                 high = mid - 1;
+            } else {
+                low = mid + 1;
             }
         }
-        
-        return low;
+
+        return -1; // Should not reach here
+    }
+
+    public static void main(String[] args) {
+        guessNumber game = new guessNumber(42);
+        int result = game.GuessNumber(100);
+        System.out.println("Guessed number: " + result);
     }
 }

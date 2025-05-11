@@ -1,4 +1,4 @@
-// Definition for a binary tree node.
+public class maximumDepth{// Definition for a binary tree node.
 class TreeNode {
     int val;
     TreeNode left;
@@ -17,7 +17,7 @@ class TreeNode {
     }
 }
 
-class maximumDepth {
+class Solution {
     public int maxDepth(TreeNode root) {
         if (root == null) {
             return 0;
@@ -27,4 +27,5 @@ class maximumDepth {
             return Math.max(leftDepth, rightDepth) + 1;
         }
     }
+}
 }

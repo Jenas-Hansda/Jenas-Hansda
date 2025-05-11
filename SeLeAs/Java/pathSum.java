@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-class TreeNode {
+public class pathSum{class TreeNode {
     int val;
     TreeNode left;
     TreeNode right;
@@ -37,4 +37,5 @@ class Solution {
 
         pathSums.put(currSum, pathSums.get(currSum) - 1);  
     }
+}
 }

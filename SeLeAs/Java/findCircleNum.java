@@ -1,6 +1,7 @@
 import java.util.HashSet;
 import java.util.Set;
 
+public class findCircleNum{
 class Solution {
     public int findCircleNum(int[][] isConnected) {
         int n = isConnected.length;
@@ -25,4 +26,5 @@ class Solution {
             }
         }
     }
+}
 }

@@ -1,6 +1,6 @@
 import java.util.*;
 
-class TreeNode {
+public class maxLevelSum{class TreeNode {
     int val;
     TreeNode left;
     TreeNode right;
@@ -37,4 +37,5 @@ class Solution {
 
         return maxLevel;
     }
+}
 }

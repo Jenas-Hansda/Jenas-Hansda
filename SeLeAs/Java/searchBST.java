@@ -1,4 +1,4 @@
-// Define the TreeNode class
+public class searchBST{// Define the TreeNode class
 class TreeNode {
     int val;
     TreeNode left;
@@ -32,4 +32,5 @@ class Solution {
             return root;
         }
     }
+}
 }

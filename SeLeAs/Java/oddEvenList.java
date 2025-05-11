@@ -1,10 +1,10 @@
-class ListNode {
+public class oddEvenList{class ListNode {
     int val;
     ListNode next;
     ListNode(int x) { val = x; }
 }
 
-class oddEvenList {
+class Solution {
     public ListNode OddEvenList(ListNode head) {
         if (head == null || head.next == null) {
             return head;
@@ -25,4 +25,5 @@ class oddEvenList {
         odd.next = evenHead;
         return head;
     }
+}
 }

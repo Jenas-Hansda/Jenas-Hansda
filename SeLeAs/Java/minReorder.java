@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+public class minReorder{class Solution {
     public int minReorder(int n, int[][] connections) {
         Map<Integer, List<Integer>> neighbors = new HashMap<>();
         Set<String> connectionSet = new HashSet<>();
@@ -42,4 +42,5 @@ class Solution {
 
         return reverse;
     }
+}
 }

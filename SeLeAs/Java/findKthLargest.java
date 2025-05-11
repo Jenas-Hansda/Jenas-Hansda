@@ -1,6 +1,7 @@
 import java.util.PriorityQueue;
 
-class Solution {
+public class findKthLargest{
+    class Solution {
     public int findKthLargest(int[] nums, int k) {
         // Min-heap to store the top k largest elements
         PriorityQueue<Integer> minHeap = new PriorityQueue<>();
@@ -16,4 +17,5 @@ class Solution {
 
         return minHeap.peek(); // kth largest element
     }
+}
 }

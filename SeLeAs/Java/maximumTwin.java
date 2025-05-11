@@ -1,4 +1,4 @@
-class ListNode {
+public class maximumTwin{class ListNode {
     int val;
     ListNode next;
     
@@ -14,7 +14,7 @@ class ListNode {
     }
 }
 
-class maximumTwin {
+class Solution {
     public int pairSum(ListNode head) {
         // Step 1: Find the middle of the list
         ListNode slow = head;
@@ -48,4 +48,5 @@ class maximumTwin {
         
         return maxSum;
     }
+}
 }
