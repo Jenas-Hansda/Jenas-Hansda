@@ -1,5 +1,5 @@
 
-
+public class deleteNode{
 class Solution {
     private TreeNode helper(TreeNode root) {
         if (root.left == null) {
@@ -47,4 +47,5 @@ class Solution {
         }
         return curr;
     }
+}
 }

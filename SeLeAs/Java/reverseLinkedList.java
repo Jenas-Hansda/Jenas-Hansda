@@ -1,4 +1,7 @@
-class ListNode {
+
+
+public class reverseLinkedList{
+    class ListNode {
     int val;
     ListNode next;
     ListNode(int x) {
@@ -7,7 +10,7 @@ class ListNode {
     }
 }
 
-class reverseLinkedList {
+class Solution {
     public ListNode reverseList(ListNode head) {
         ListNode prev = null;
         ListNode curr = head;
@@ -22,4 +25,5 @@ class reverseLinkedList {
 
         return prev;  // prev is the new head of the reversed list
     }
+}
 }
