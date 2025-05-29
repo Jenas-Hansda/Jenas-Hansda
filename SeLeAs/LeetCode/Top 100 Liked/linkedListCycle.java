@@ -1,0 +1,33 @@
+public class linkedListCycle {
+    // Definition for singly-linked list.
+class ListNode {
+    int val;
+    ListNode next;
+
+    ListNode(int x) {
+        val = x;
+        next = null;
+    }
+}
+
+public class Solution {
+    public boolean hasCycle(ListNode head) {
+        if (head == null) return false;
+
+        ListNode slow = head;
+        ListNode fast = head;
+
+        while (fast != null && fast.next != null) {
+            slow = slow.next;           // Move slow by one
+            fast = fast.next.next;      // Move fast by two
+
+            if (slow == fast) {
+                return true;            // Cycle detected
+            }
+        }
+
+        return false;                   // No cycle
+    }
+}
+
+}
