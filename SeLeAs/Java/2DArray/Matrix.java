@@ -1,4 +1,4 @@
-package Array.TwoDArray;
+
 import java.util.*;
 public class Matrix {
     public static boolean search(int matrix[][], int key){
