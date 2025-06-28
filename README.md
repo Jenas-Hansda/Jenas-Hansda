@@ -33,7 +33,7 @@ I am a passionate **Computer Science student** currently learning and growing in
 
 ### Skills
 - **Programming Languages**: Java, Python, C, C++, HTML, CSS, JavaScript
-- **Tools & Technologies**: Git, Linux, SQL, Visual Studio Code
+- **Tools & Technologies**: Git, Linux, SQL, Visual Studio Code, Jupyter Notebook
 - **Areas of Interest**: Software Development, Data Science, AI/ML
 
 <!--## Projects
