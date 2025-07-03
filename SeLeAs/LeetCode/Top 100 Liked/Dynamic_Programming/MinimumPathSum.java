@@ -1,4 +1,4 @@
-package Dynamic_Programming;
+
 
 public class MinimumPathSum {
     class Solution {
