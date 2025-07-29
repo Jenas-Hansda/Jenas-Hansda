@@ -1,4 +1,4 @@
-package Array.String;
+package Array_String;
 
 
 class MergeSortedArray {
