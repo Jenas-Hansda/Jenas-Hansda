@@ -40,4 +40,4 @@ class Solution {
 
         return output;
     }
-}
+};
