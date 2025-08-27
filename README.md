@@ -71,4 +71,4 @@ Feel free to explore my GitHub and connect with me for collaborations or to disc
 
 ---
 
-Thank you for visiting my profile! 😄
+Thank you for visiting my profile! 
