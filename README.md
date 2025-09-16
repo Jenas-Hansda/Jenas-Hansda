@@ -31,6 +31,9 @@ I am a passionate **Computer Science student** currently learning and growing in
 
 
 
+### Projects
+- [TO-DO List](https://jenas-hansda.github.io/TO-DO-List/)
+
 ### Skills
 - **Programming Languages**: Java, Python, C, C++, HTML, CSS, JavaScript
 - **Tools & Technologies**: Git, Linux, SQL, Visual Studio Code, Jupyter Notebook
