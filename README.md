@@ -33,6 +33,13 @@ I am a passionate **Computer Science student** currently learning and growing in
 
 ### Projects
 - [TO-DO List](https://jenas-hansda.github.io/TO-DO-List/)
+  - Developed a responsive and interactive To-Do List web application using JavaScript. The app allows users to add and delete tasks as completed. Tasks persist across sessions using LocalStorage. The UI is styled with clean, modern CSS and is fully responsive for mobile and desktop views.
+- [Simon Game](https://jenas-hansda.github.io/Simon-Game/)
+  - Built a fully interactive version of the classic Simon memory game using JavaScript, styled with CSS, and structured with HTML. The game challenges users to remember and replicate increasingly complex sequences of colors and sounds. It features visual and audio feedback, level progression, and restart logic.
+- [Random Color Generator](https://jenas-hansda.github.io/Random-Color-Generator/)
+  - Created a simple and responsive web application that generates a random color on each button click. The app displays the color both visually (background or box) and textually by showing the corresponding hex code. Built with vanilla JavaScript and styled using CSS, the project demonstrates real-time DOM manipulation and user interaction.
+  
+
 
 ### Skills
 - **Programming Languages**: Java, Python, C, C++, HTML, CSS, JavaScript
