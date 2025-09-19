@@ -25,10 +25,8 @@ Here are some ideas to get you started:
 - 💡 Always excited to take on new challenges in coding and innovation  
 - 📈 Focused on writing clean, efficient, and scalable code
 ### 🛠️ Skills
-- **💻 Programming Languages**: Java, C, C++, TypeScript, Python, HTML, CSS, JavaScript  
-- **🧠 Core CS Concepts**: Data Structures & Algorithms (DSA), Object-Oriented Programming (OOPS), Agile Practices  
-- **🌐 Frontend**: React.js, Redux, Next.js 13, HTML, CSS, JavaScript  
-- **🔧 Backend**: Node.js, Express.js, Redis, WebRTC, GraphQL  
+- **💻 Languages & Fundamentals**: Java, C, C++, Python, TypeScript, JavaScript, HTML, CSS, DSA, OOP  
+- **🌐 Web Development**: React.js, Redux, Next.js 13, Node.js, Express.js, GraphQL, Redis, WebRTC   
 - **🛢️ Databases**: MySQL, MongoDB, PostgreSQL  
 - **⚙️ DevOps & Cloud**: Docker, Kubernetes, AWS, Jenkins, Ansible, Prometheus, Grafana  
 - **🧰 Tools & Platforms**: Git (GitHub/GitBucket), Linux, SQL, Visual Studio Code, Jupyter Notebook  
