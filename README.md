@@ -36,9 +36,9 @@ I am a passionate **Computer Science student** currently learning and growing in
 
 
 ### Skills
-- **Programming Languages**: Java, Python, C, C++, HTML, CSS, JavaScript
-- **Tools & Technologies**: Git, Linux, SQL, Visual Studio Code, Jupyter Notebook
-- **Areas of Interest**: Software Development, Data Science, AI/ML
+- **Programming Languages**: Java, Python, C, C++, HTML, CSS, JavaScript,
+- **Tools & Technologies**: Git, Linux, SQL, Visual Studio Code, Jupyter Notebook, Pandas, NumPy, Streamlit, Streamlit Cloud, Scikit-learn,
+- **Areas of Interest**: Full Stack Development, Data Structure and Algorithms, Software Development, Data Science, AI/ML
 - **Projects**: [TO-DO List](https://jenas-hansda.github.io/TO-DO-List/), [Simon Game](https://jenas-hansda.github.io/Simon-Game/), [Random Color Generator](https://jenas-hansda.github.io/Random-Color-Generator/), [Area Price Prediction](https://area-price-prediction-nphfc5lybaoq8k6q8mn9gy.streamlit.app/), [House Price Predictor](https://house-price-prediction-y4iv8a45fo4ps8mxrditmg.streamlit.app/), [Gender Predictor Based on Height and Weight](https://gender-prediction-ajibnyo8yoogfdnhrwqtxu.streamlit.app/), [Insurance Purchase Prediction](https://insurance-purchase-prediction-9oydjacqzmwuoryu3knylc.streamlit.app/), [Titanic Survival Prediction](https://titanic-survival-prediction-8brb5bp3sdyupdcwnkxyw3.streamlit.app/), [Iris Flower Species Prediction](https://iris-flower-species-prediction-vzautten7t3cskafzxnkhr.streamlit.app/), [Handwritten Digit Recognition](https://handwritten-digit-recognition-rrrzhkye5phbqpcjzna4is.streamlit.app/),
 
 <!--## Projects
