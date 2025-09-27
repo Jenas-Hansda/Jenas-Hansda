@@ -24,15 +24,19 @@ Here are some ideas to get you started:
 - 🤖 Interested in AI/ML, Data Science, and Software Development  
 - 💡 Always excited to take on new challenges in coding and innovation  
 - 📈 Focused on writing clean, efficient, and scalable code
+
 ### 🛠️ Skills
-- **💻 Languages & Fundamentals**: Java, C, C++, Python, TypeScript, JavaScript, HTML, CSS, DSA, OOP  
-- **🌐 Web Development**: React.js, Redux, Next.js 13, Node.js, Express.js, GraphQL, Redis, WebRTC   
-- **🛢️ Databases**: MySQL, MongoDB, PostgreSQL  
-- **⚙️ DevOps & Cloud**: Docker, Kubernetes, AWS, Jenkins, Ansible, Prometheus, Grafana  
-- **🧰 Tools & Platforms**: Git (GitHub/GitBucket), Linux, SQL, Visual Studio Code, Jupyter Notebook  
-- **📚 Libraries & Frameworks (Data & ML)**: Pandas, NumPy, Scikit-learn, Streamlit, Streamlit Cloud 
-- **🎯 Areas of Interest**: Full Stack Development, Data Structure and Algorithms (DSA), Software Development, Data Science, Artificial Intelligence & Machine Learning 
-- **🚀 Projects**: [TO-DO List](https://jenas-hansda.github.io/TO-DO-List/), [Simon Game](https://jenas-hansda.github.io/Simon-Game/), [Random Color Generator](https://jenas-hansda.github.io/Random-Color-Generator/), [Area Price Prediction](https://area-price-prediction-nphfc5lybaoq8k6q8mn9gy.streamlit.app/), [House Price Predictor](https://house-price-prediction-y4iv8a45fo4ps8mxrditmg.streamlit.app/), [Gender Predictor Based on Height and Weight](https://gender-prediction-ajibnyo8yoogfdnhrwqtxu.streamlit.app/), [Insurance Purchase Prediction](https://insurance-purchase-prediction-9oydjacqzmwuoryu3knylc.streamlit.app/), [Titanic Survival Prediction](https://titanic-survival-prediction-8brb5bp3sdyupdcwnkxyw3.streamlit.app/), [Iris Flower Species Prediction](https://iris-flower-species-prediction-vzautten7t3cskafzxnkhr.streamlit.app/), [Handwritten Digit Recognition](https://handwritten-digit-recognition-rrrzhkye5phbqpcjzna4is.streamlit.app/),
+- **💻 Programming Languages**: JavaScript, TypeScript, Python, Java, C, C++, HTML, CSS  
+- **🌐 Web Development**: React.js, Redux, Next.js, Node.js, Express.js, REST APIs, WebSockets  
+- **🧠 Machine Learning & Data Science**: Pandas, NumPy, Scikit-learn, Streamlit, Matplotlib  
+- **🛢️ Databases**: MongoDB (Atlas), MySQL, PostgreSQL  
+- **⚙️ DevOps & Cloud Tools**: Docker, Git, GitHub, Render, Vercel, Streamlit Cloud  
+- **🧰 Tools & Platforms**: VS Code, Jupyter Notebook, Linux, Postman  
+- **🎯 Interests**: Full Stack Development, Software Engineering, Data Structures & Algorithms (DSA), Machine Learning, AI
+
+### 🚀 Projects
+- **🌐 Web Development Projects**: [Simon Game](https://simon-says-game-three-eta.vercel.app/), [TO-DO List](https://jenas-hansda.github.io/TO-DO-List/),  [Random Color Generator](https://jenas-hansda.github.io/Random-Color-Generator/),
+- **🤖 Machine Learning Projects**:[Area Price Prediction](https://area-price-prediction-nphfc5lybaoq8k6q8mn9gy.streamlit.app/), [House Price Predictor](https://house-price-prediction-y4iv8a45fo4ps8mxrditmg.streamlit.app/), [Gender Predictor Based on Height and Weight](https://gender-prediction-ajibnyo8yoogfdnhrwqtxu.streamlit.app/), [Insurance Purchase Prediction](https://insurance-purchase-prediction-9oydjacqzmwuoryu3knylc.streamlit.app/), [Titanic Survival Prediction](https://titanic-survival-prediction-8brb5bp3sdyupdcwnkxyw3.streamlit.app/), [Iris Flower Species Prediction](https://iris-flower-species-prediction-vzautten7t3cskafzxnkhr.streamlit.app/), [Handwritten Digit Recognition](https://handwritten-digit-recognition-rrrzhkye5phbqpcjzna4is.streamlit.app/),
 ---
 
 *Thanks for visiting my profile!😄  Consider giving a star ⭐ to the repositories you like.*
