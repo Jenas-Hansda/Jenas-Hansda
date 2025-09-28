@@ -25,14 +25,18 @@ Here are some ideas to get you started:
 - 💡 Always excited to take on new challenges in coding and innovation  
 - 📈 Focused on writing clean, efficient, and scalable code
 
-### 🛠️ Skills
-- **💻 Programming Languages**: JavaScript, TypeScript, Python, Java, C, C++, HTML, CSS  
-- **🌐 Web Development**: React.js, Redux, Next.js, Node.js, Express.js, REST APIs, WebSockets  
-- **🧠 Machine Learning & Data Science**: Pandas, NumPy, Scikit-learn, Streamlit, Matplotlib  
-- **🛢️ Databases**: MongoDB (Atlas), MySQL, PostgreSQL  
-- **⚙️ DevOps & Cloud Tools**: Docker, Git, GitHub, Render, Vercel, Streamlit Cloud  
-- **🧰 Tools & Platforms**: VS Code, Jupyter Notebook, Linux, Postman  
-- **🎯 Interests**: Full Stack Development, Software Engineering, Data Structures & Algorithms (DSA), Machine Learning, AI
+### 🛠️ Tech Stack & Skills
+- 💻 **Programming Languages:** Java, Python, JavaScript, TypeScript, C, C++, SQL, HTML, CSS
+- 🌐 **Frontend Development:** React.js, Redux, Next.js, HTML, CSS, JavaScript
+- 🛠️ **Backend Development:** Node.js, Express.js, REST APIs, WebSockets
+- 🛢️ **Databases:** MongoDB (incl. Atlas), MySQL, PostgreSQL
+- 📊 **Machine Learning & Data Science:** Pandas, NumPy, Scikit-learn, Matplotlib, Streamlit
+- ⚙️ **DevOps & Cloud Tools:** Git & GitHub, Docker, AWS, Render, Vercel, Streamlit Cloud
+- 🧰 **Tools & Platforms:** VS Code, Jupyter Notebook, Linux, Postman
+- 🔐 **Cybersecurity Tools:** Nessus, OpenVAS (basic)
+- 🧠 **Concepts & Practices:** Data Structures & Algorithms (DSA), Object-Oriented Programming (OOP), Agile Methodologies, Problem Solving
+- 🎯 **Interests:** Full Stack Development, Software Engineering, Machine Learning, Artificial Intelligence
+
 
 ### 🚀 Projects
 - **🌐 Web Development Projects**: [Simon Game](https://simon-says-game-three-eta.vercel.app/), [TO-DO List](https://jenas-hansda.github.io/TO-DO-List/),  [Random Color Generator](https://jenas-hansda.github.io/Random-Color-Generator/),
