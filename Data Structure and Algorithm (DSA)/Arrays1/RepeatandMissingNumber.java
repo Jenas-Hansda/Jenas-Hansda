@@ -25,6 +25,6 @@ class RepeatandMissingNumber {
         int repeated = (int) ((sumPlus + sumDiff) / 2);
         int missing = (int) ((sumPlus - sumDiff) / 2);
 
-        return new int[]{missing, repeated};
+        return new int[]{repeated, missing };
     }
 }
