@@ -39,7 +39,7 @@ Here are some ideas to get you started:
 
 
 ### 🚀 Projects
-- **🌐 Web Development Projects**: [Simon Game](https://simon-says-game-three-eta.vercel.app/), [TO-DO List](https://jenas-hansda.github.io/TO-DO-List/),  [Random Color Generator](https://jenas-hansda.github.io/Random-Color-Generator/),
+- **🌐 Web Development Projects**: [Simon Game](https://simon-says-game-beta-gilt.vercel.app/), [TO-DO List](https://jenas-hansda.github.io/TO-DO-List/),  [Random Color Generator](https://jenas-hansda.github.io/Random-Color-Generator/),
 - **🤖 Machine Learning Projects**:[Area Price Prediction](https://area-price-prediction-nphfc5lybaoq8k6q8mn9gy.streamlit.app/), [House Price Predictor](https://house-price-prediction-y4iv8a45fo4ps8mxrditmg.streamlit.app/), [Gender Predictor Based on Height and Weight](https://gender-prediction-ajibnyo8yoogfdnhrwqtxu.streamlit.app/), [Insurance Purchase Prediction](https://insurance-purchase-prediction-9oydjacqzmwuoryu3knylc.streamlit.app/), [Titanic Survival Prediction](https://titanic-survival-prediction-8brb5bp3sdyupdcwnkxyw3.streamlit.app/), [Iris Flower Species Prediction](https://iris-flower-species-prediction-vzautten7t3cskafzxnkhr.streamlit.app/), [Handwritten Digit Recognition](https://handwritten-digit-recognition-rrrzhkye5phbqpcjzna4is.streamlit.app/),
 ---
 
