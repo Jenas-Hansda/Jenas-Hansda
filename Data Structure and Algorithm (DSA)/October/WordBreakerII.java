@@ -1,4 +1,4 @@
-class WordLadderII{
+class WordBreakerII{
     private Set<String> dict;
     private Map<String, List<String>> memo;
 
