@@ -1,4 +1,4 @@
-class WordBreakerII{
+class WordBreakII{
     private Set<String> dict;
     private Map<String, List<String>> memo;
 
