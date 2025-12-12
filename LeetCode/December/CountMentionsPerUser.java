@@ -18,6 +18,7 @@ class CountMentionsPerUser {
                 for (int i = 0; i < mentionCount.length; i++) {
                     if (offlineTime[i] == 0 || offlineTime[i] + 60 <= timestamp) {
                         mentionCount[i]++;
+                        
                     }
                 }
             } 
