@@ -25,7 +25,7 @@ Here are some ideas to get you started:
 - 💡 Always excited to take on new challenges in coding and innovation  
 - 📈 Focused on writing clean, efficient, and scalable code
 
-### 🛠️ Tech Stack & Skills
+<!-- ### 🛠️ Tech Stack & Skills
 - 💻 **Programming Languages:** Java, Python, JavaScript, TypeScript, C, C++, SQL, HTML, CSS
 - 🌐 **Frontend Development:** React.js, Redux, Next.js, HTML, CSS, JavaScript
 - 🛠️ **Backend Development:** Node.js, Express.js, REST APIs, WebSockets
@@ -36,6 +36,7 @@ Here are some ideas to get you started:
 - 🔐 **Cybersecurity Tools:** Nessus, OpenVAS (basic)
 - 🧠 **Concepts & Practices:** Data Structures & Algorithms (DSA), Object-Oriented Programming (OOP), Agile Methodologies, Problem Solving
 - 🎯 **Interests:** Full Stack Development, Software Engineering, Machine Learning, Artificial Intelligence
+-->
 
 
 ### 🚀 Projects
