@@ -1,4 +1,4 @@
-class Solution {
+class XORAfterRangeMultiplicationQueriesI {
     int M = 1000000007;
 
     public int xorAfterQueries(int[] nums, int[][] queries) {
