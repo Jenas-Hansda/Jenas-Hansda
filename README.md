@@ -103,7 +103,7 @@ Feel free to explore my GitHub and connect with me for collaborations or to disc
 - **WhatsApp**: [Click to Chat on WhatsApp](https://wa.me/8521005123)
 - **Telegram**: [Click to Message on Telegram](https://t.me/vishal)
 
-(This should be removed or omitted or commented out)
+(This should be removed or omitted or commented out via)
 
 - [LinkedIn](https://www.linkedin.com/in/jenas-hansda/)
 - [GitHub](https://github.com/jenas-hansda)
