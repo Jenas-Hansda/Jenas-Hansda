@@ -1,0 +1,40 @@
+import java.util.*;
+
+class Solution {
+    static class Pair {
+        int node, cost;
+
+        Pair(int node, int cost) {
+            this.node = node;
+            this.cost = cost;
+        }
+    }
+
+    private void dfs(Map<Integer, List<Pair>> adj, int u, boolean[] visited, int[] result) {
+        visited[u] = true;
+
+        for (Pair p : adj.getOrDefault(u, Collections.emptyList())) {
+            result[0] = Math.min(result[0], p.cost);
+            if (!visited[p.node]) {
+                dfs(adj, p.node, visited, result);
+            }
+        }
+    }
+
+    public int minScore(int n, int[][] roads) {
+        Map<Integer, List<Pair>> adj = new HashMap<>();
+
+        for (int[] road : roads) {
+            adj.computeIfAbsent(road[0], k -> new ArrayList<>()).add(new Pair(road[1], road[2]));
+            adj.computeIfAbsent(road[1], k -> new ArrayList<>()).add(new Pair(road[0], road[2]));
+        }
+
+        boolean[] visited = new boolean[n + 1];
+        int[] result = {Integer.MAX_VALUE};
+
+        dfs(adj, 1, visited, result);
+
+        return result[0];
+    }
+}
+
