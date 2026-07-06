@@ -1,0 +1,49 @@
+class Solution {
+    int MOD = 1000000007;
+
+    public int[] pathsWithMaxScore(List<String> board) {
+        int n = board.size();
+        int[][] score = new int[n][n];
+        int[][] paths = new int[n][n];
+
+        paths[0][0] = 1;
+
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                char ch = board.get(i).charAt(j);
+
+                if (ch == 'E' || ch == 'X')
+                    continue;
+
+                int bestScore = -1;
+                long ways = 0;
+
+                int[][] dir = {{-1, 0}, {0, -1}, {-1, -1}};
+
+                for (int[] d : dir) {
+                    int x = i + d[0];
+                    int y = j + d[1];
+
+                    if (x < 0 || y < 0 || board.get(x).charAt(y) == 'X' || paths[x][y] == 0)
+                        continue;
+
+                    int currScore = score[x][y] + (ch == 'S' ? 0 : ch - '0');
+
+                    if (currScore > bestScore) {
+                        bestScore = currScore;
+                        ways = paths[x][y];
+                    } else if (currScore == bestScore) {
+                        ways = (ways + paths[x][y]) % MOD;
+                    }
+                }
+
+                if (bestScore != -1) {
+                    score[i][j] = bestScore;
+                    paths[i][j] = (int) (ways % MOD);
+                }
+            }
+        }
+
+        return new int[]{score[n - 1][n - 1], paths[n - 1][n - 1]};
+    }
+}
