@@ -1,0 +1,68 @@
+class Solution {
+    class DSU {
+        int[] parent;
+        int[] size;
+
+        DSU(int n) {
+            parent = new int[n];
+            size = new int[n];
+            for (int i = 0; i < n; i++) {
+                parent[i] = i;
+                size[i] = 1;
+            }
+        }
+
+        int find(int x) {
+            if (parent[x] != x) {
+                parent[x] = find(parent[x]);
+            }
+            return parent[x];
+        }
+
+        void union(int x, int y) {
+            int px = find(x);
+            int py = find(y);
+
+            if (px == py) {
+                return;
+            }
+
+            if (size[px] >= size[py]) {
+                parent[py] = px;
+                size[px] += size[py];
+            } else {
+                parent[px] = py;
+                size[py] += size[px];
+            }
+        }
+    }
+
+    public int countCompleteComponents(int n, int[][] edges) {
+        DSU dsu = new DSU(n);
+        Map<Integer, Integer> edgeCount = new HashMap<>();
+
+        for (int[] edge : edges) {
+            dsu.union(edge[0], edge[1]);
+        }
+
+        for (int[] edge : edges) {
+            int root = dsu.find(edge[0]);
+            edgeCount.put(root, edgeCount.getOrDefault(root, 0) + 1);
+        }
+
+        int result = 0;
+
+        for (int i = 0; i < n; i++) {
+            if (dsu.find(i) == i) {
+                int vertices = dsu.size[i];
+                int edgesInComponent = edgeCount.getOrDefault(i, 0);
+
+                if ((vertices * (vertices - 1)) / 2 == edgesInComponent) {
+                    result++;
+                }
+            }
+        }
+
+        return result;
+    }
+}
