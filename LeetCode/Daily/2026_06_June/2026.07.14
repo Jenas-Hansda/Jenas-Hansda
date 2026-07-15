@@ -1,0 +1,42 @@
+class Solution {
+    static final int MOD = 1000000007;
+
+    private int gcd(int a, int b) {
+        while (b != 0) {
+            int t = a % b;
+            a = b;
+            b = t;
+        }
+        return a;
+    }
+
+    public int subsequencePairCount(int[] nums) {
+        int max = 0;
+        for (int x : nums) {
+            max = Math.max(max, x);
+        }
+
+        int[][] prev = new int[max + 1][max + 1];
+
+        for (int i = 1; i <= max; i++) {
+            prev[i][i] = 1;
+        }
+
+        for (int idx = nums.length - 1; idx >= 0; idx--) {
+            int[][] curr = new int[max + 1][max + 1];
+            int val = nums[idx];
+
+            for (int first = 0; first <= max; first++) {
+                int g1 = gcd(first, val);
+                for (int second = 0; second <= max; second++) {
+                    int g2 = gcd(second, val);
+                    long ans = (long) prev[first][second] + prev[g1][second] + prev[first][g2];
+                    curr[first][second] = (int) (ans % MOD);
+                }
+            }
+            prev = curr;
+        }
+
+        return prev[0][0];
+    }
+}
